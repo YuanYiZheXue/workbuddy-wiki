@@ -18,25 +18,23 @@
 git fetch origin main
 ```
 
-### 2. 读取版本号
+### 2. 版本对比（对比 Git 标签）
 
 **本地版本**（当前工作区）：
-```powershell
-Select-String -Path "workbuddy-wiki-schema.md" -Pattern "^\*\*版本\*\*：(.+)$" | % { $_.Matches.Groups[1].Value.Trim() }
+```bash
+git describe --tags
 ```
 
 **远程版本**（待合并）：
-```powershell
-git show origin/main:workbuddy-wiki-schema.md | Select-String -Pattern "^\*\*版本\*\*：(.+)$" | % { $_.Matches.Groups[1].Value.Trim() }
+```bash
+git describe --tags origin/main
 ```
 
-### 3. 版本对比
+**对比**：
+- 如果 `本地版本 = 远程版本` → **无需更新**，结束流程。
+- 如果 `本地版本 ≠ 远程版本` → 继续下一步。
 
-如果远程版本 = 本地版本 → **无需更新**，结束流程。
-
-如果远程版本 ≠ 本地版本 → 继续下一步。
-
-### 4. 显示变更日志
+### 3. 显示变更日志
 
 **读取远程变更说明**：
 ```powershell
@@ -53,13 +51,13 @@ git diff HEAD origin/main -- workbuddy-wiki-schema.md
 - 修改了哪些核心概念？
 - 是否有破坏性变更（Breaking Change）？
 
-### 5. 用户确认
+### 4. 用户确认
 
 **询问用户**：
 ```
 发现新版本 Schema：
-  本地：v0.3.0 (v2026-04-26-04611bb)
-  远程：v0.4.0 (v2026-04-27-xxxxx)
+  本地：v0.3.0（标签：v2026-04-26-7eb7190)
+  远程：v0.4.0（标签：v2026-04-26-40c218c)
 
 主要变更：
 - 新增：XXX 章节
@@ -72,7 +70,7 @@ git diff HEAD origin/main -- workbuddy-wiki-schema.md
 3. 查看详细差异（显示完整 diff）
 ```
 
-### 6. 应用更新
+### 5. 应用更新
 
 如果用户确认"是"：
 
@@ -81,18 +79,18 @@ git pull origin main
 ```
 
 **验证更新成功**：
-```powershell
-Select-String -Path "workbuddy-wiki-schema.md" -Pattern "^\*\*版本\*\*：(.+)$"
+```bash
+git describe --tags
 ```
 
 **通知用户**：
 ```
-✅ Schema 已更新至 v0.4.0 (v2026-04-27-xxxxx)
+✅ Schema 已更新至 v0.4.0（标签：v2026-04-26-40c218c)
 
 建议下一步：
 1. 阅读新版本 Schema（workbuddy-wiki-schema.md）
 2. 检查现有 wiki/ 是否需要调整
-3. 如有问题，可回滚：git checkout v2026-04-26-04611bb
+3. 如有问题，可回滚：git checkout v2026-04-26-7eb7190
 ```
 
 ### 7. 如果用户选择"否"
@@ -111,16 +109,16 @@ Select-String -Path "workbuddy-wiki-schema.md" -Pattern "^\*\*版本\*\*：(.+)$
 如果用户应用更新后发现问题，可以回滚：
 
 ```bash
-# 回滚到上一个稳定版本
-git checkout v2026-04-26-04611bb
+# 查看所有标签
+git tag
 
-# 或者回滚到指定版本
-git checkout <tag-name>
+# 回滚到指定标签
+git checkout v2026-04-26-40c218c
 ```
 
 **通知用户**：
 ```
-⚠️ 已回滚至 v2026-04-26-04611bb
+⚠️ 已回滚至 v2026-04-26-40c218c
 
 如需重新尝试更新，请再次说"检查 Schema 更新"。
 ```
@@ -159,22 +157,23 @@ git push origin --tags
 
 ### 格式
 
-**人类可读版本**：`v<major>.<minor>.<patch>`
+**人类可读版本**：`v<major>.<minor>.<patch>`（写入 `workbuddy-wiki-schema.md` 文件开头）
 - major：破坏性变更（不兼容旧版本）
 - minor：新增功能（兼容旧版本）
 - patch：Bug 修复（兼容旧版本）
 
-**Git 精确版本**：`v<YYYY>-<MM>-<DD>-<short-hash>`
+**Git 精确版本**：通过 `git describe --tags` 获取（不写入文件）
+- 格式：`v<YYYY>-<MM>-<DD>-<short-hash>`
 - 用于精确回滚
-- 由 post-commit hook 自动生成
+- 由 post-commit hook 自动打标签
 
 ### 示例
 
-| 变更类型 | 人类版本 | Git 版本 |
-|----------|----------|-----------|
+| 变更类型 | 人类版本（文件） | Git 精确版本（标签） |
+|----------|-------------------|-----------------------|
 | 初始版本 | v0.1.0 | v2026-04-25-xxxxxxx |
 | 新增"接口决策规则"章节 | v0.2.0 | v2026-04-25-yyyyyyy |
-| 合并中文版独有章节 | v0.3.0 | v2026-04-26-04611bb |
+| 合并中文版独有章节 | v0.3.0 | v2026-04-26-7eb7190 |
 | 修复某处错误 | v0.3.1 | v2026-04-26-zzzzzzz |
 | 重构核心概念（破坏性） | v1.0.0 | v2026-05-01-xxxxxxx |
 
