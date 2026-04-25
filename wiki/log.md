@@ -286,3 +286,34 @@ wiki/
 Wiki 整体健康，四极基本平衡。所有悬空链接已清理完毕。
 
 ---
+
+## [2026-04-26] automation | 设置自动化版本管理
+
+### 执行内容
+
+在 `.git/hooks/post-commit` 中创建自动打标签脚本：
+
+- **标签格式**：`v2026-04-26-ab12c3d`（日期 + 短 hash）
+- **触发时机**：每次 `git commit` 后自动执行
+- **标签类型**：annotated tag（包含提交信息、日期、回滚方法）
+
+### 使用方法
+
+```bash
+# 查看所有自动标签
+git tag
+
+# 回滚到某个版本
+git checkout v2026-04-26-ab12c3d
+
+# 查看标签详情
+git show v2026-04-26-ab12c3d
+```
+
+### 测试记录
+
+- ✅ Hook 文件已创建：`.git/hooks/post-commit`
+- ✅ 权限已设置：`chmod +x`
+- 🔄 待测试：下次 commit 时自动打标签
+
+---
