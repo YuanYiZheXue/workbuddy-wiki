@@ -1,7 +1,7 @@
 ---
 type: source
 tags: [opendev, rust, terminal agent, context engineering]
-sources: [raw/Building Effective AI Coding Agents for the Terminal.pdf]
+sources: [raw/Building Effective AI Coding Agents for the Terminal.pdf, raw/building-effective-ai-agents-txt.txt]
 created: 2026-04-25
 ---
 

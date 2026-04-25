@@ -233,6 +233,73 @@ Wiki 整体健康，四极基本平衡。主要改进方向：
 
 ---
 
+## [2026-04-26] automation | 设置自动化版本管理
+
+### 执行内容
+
+在 `.git/hooks/post-commit` 中创建自动打标签脚本：
+
+- **标签格式**：`v2026-04-26-ab12c3d`（日期 + 短 hash）
+- **触发时机**：每次 `git commit` 后自动执行
+- **标签类型**：annotated tag（包含提交信息、日期、回滚方法）
+
+### 使用方法
+
+```bash
+# 查看所有标签
+git tag --sort=-creatordate
+
+# 回滚到某个版本
+git checkout v2026-04-26-ce5a005
+
+# 查看标签详情
+git show v2026-04-26-ce5a005
+```
+
+### 测试记录
+
+- ✅ Hook 文件已创建：`.git/hooks/post-commit`
+- ✅ 权限已设置：`chmod +x`
+- ✅ 测试成功：自动打标签 `v2026-04-26-ce5a005`
+
+---
+
+## [2026-04-26] git | 提交 + 推送 + 版本管理
+
+### 执行内容
+
+1. **添加所有变动**：`git add wiki/`
+2. **提交**：`git commit -m "feat(wiki): 完成基于元一思想四极飞轮的健康度诊断与修复"`
+3. **打标签**：`v0.2.0-lint-complete`（手动标签）
+4. **推送 GitHub**：`git push origin main --tags` ✅
+5. **推送 Gitee**：`git push gitee main --tags` ✅
+6. **测试自动化**：提交 `wiki/log.md` 变动，触发 post-commit hook ✅
+7. **推送新标签**：`git push origin --tags` + `git push gitee --tags` ✅
+
+### 本次提交内容
+
+```
+14 files changed, 867 insertions(+), 3 deletions(-)
+
+新增文件：
+- wiki/发布/（4 篇发布文章）
+- wiki/实体/（7 个新实体页）
+
+修改文件：
+- wiki/概念/2026-04-25 Harness design...md（修复链接）
+- wiki/概念/Ralph Wiggum 循环.md（修复链接）
+- wiki/概念/元一思想.md（修复链接）
+```
+
+### 标签列表
+
+| 标签 | 类型 | 说明 |
+|------|------|------|
+| `v0.2.0-lint-complete` | 手动 | 完成健康度诊断与修复 |
+| `v2026-04-26-ce5a005` | 自动 | 测试 post-commit hook |
+
+---
+
 ## [2026-04-26] 完成工作汇总
 
 ### 用户指令：先3后2再1
@@ -315,5 +382,52 @@ git show v2026-04-26-ab12c3d
 - ✅ Hook 文件已创建：`.git/hooks/post-commit`
 - ✅ 权限已设置：`chmod +x`
 - 🔄 待测试：下次 commit 时自动打标签
+
+---
+
+## [2026-04-26] wiki 完善 | 合并 + 对比页创建
+
+### 执行内容
+
+#### 1. 合并 `raw/llm-wiki-zh.md` 到 `workbuddy-wiki-schema.md`
+
+**决策**：按「自下而上原则」+「存续为体，形式为用」，不创建独立来源页（中文版是早期翻译版，英文版已迭代多次）。
+
+**执行**：
+- 在 `workbuddy-wiki-schema.md` 开头添加注释，说明原始英文版和中文版的来源
+- 合并中文版独有章节：`可选：CLI 工具`、`提示和技巧`
+
+#### 2. 处理 `raw/building-effective-ai-agents-txt.txt`
+
+**决策**：同一篇论文的 PDF 提取文本（格式混乱），不创建新来源页。
+
+**执行**：在 `wiki/来源/2026-04-25 Building Effective AI Coding Agents for the Terminal.md` 的 `sources:` 中添加 `raw/building-effective-ai-agents-txt.txt`。
+
+#### 3. 创建第一个对比页：`wiki/对比/Agent Harness 设计对比.md`
+
+**对比主题**：Anthropic vs OpenDev vs LangChain 的 Harness 设计哲学对比。
+
+**对比维度**：
+1. 架构设计
+2. 上下文管理
+3. 执行模式
+4. 工具管理
+5. 记忆与持久化
+6. 评估与可观测性
+
+#### 4. 更新 `wiki/index.md`
+
+- Stats 更新：对比页 0 → 1
+- 添加对比页列表：`[[对比/Agent Harness 设计对比]]`
+
+### 文件清单
+
+**创建的文件**：
+- `wiki/对比/Agent Harness 设计对比.md` — 第一个对比页
+
+**更新的文件**：
+- `workbuddy-wiki-schema.md` — 合并中文版独有内容
+- `wiki/来源/2026-04-25 Building Effective AI Coding Agents for the Terminal.md` — 添加 txt 文件引用
+- `wiki/index.md` — 更新 Stats 和对比页列表
 
 ---
