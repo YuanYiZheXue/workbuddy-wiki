@@ -7,11 +7,11 @@
 
 | 项目 | 数量 |
 |------|------|
-| 来源摘要页 | 11 |
-| 实体页 | 2 |
+| 来源摘要页 | 12 |
+| 实体页 | 7 |
 | 概念页 | 8 |
-| 对比页 | 0 |
-| 总计 | 21 |
+| 对比页 | 1 |
+| 总计 | 28 |
 
 ---
 
@@ -31,15 +31,21 @@
 | [[来源/2026-04-25 Building Effective AI Coding Agents for the Terminal]] | OPENDEV：Rust 编写的终端原生 Agent，双模式架木 + 上下文工程 | 2026-04-25 |
 | [[来源/元一思想体系]] | 元一思想完整体系：四原则箴言 + 动态制衡模型 | 2026-04-26 |
 | [[来源/2026-04-26 OpenAI Michael Bolin on Codex]] | Codex 开源负责人访谈：小而精的 Harness、沙箱跨平台、AGENTS.md 适度原则 | 2026-04-26 |
+| [[来源/元一思想-深化阐释]] | 四原则精解 + 四极飞轮动态制衡模型完整阐释 | 2026-04-26 |
 
 ---
 
-## 实体
+## 实体（7 个页面）
 
 | 页面 | 简介 |
 |------|------|
 | [[实体/Anthropic]] | Claude 大模型开发方，发表长运行 Agent 双 Agent 架构实践 |
 | [[实体/LangChain]] | LLM 应用框架，系统阐述 Agent = Model + Harness 理论 |
+| [[实体/Claude Agent SDK]] | Anthropic 发布的 Agent SDK，用于构建定制化 Agent |
+| [[实体/Vivek Trivedy]] | LangChain 工程师，The Anatomy of an Agent Harness 作者 |
+| [[实体/Playwright MCP]] | 浏览器自动化 MCP 服务器，支持 Web 测试与爬虫 |
+| [[实体/LangSmith]] | LangChain 旗下 Agent 评估、追踪、调试平台 |
+| [[实体/Terminal Bench]] | Agent 基准测试平台，评估长视野终端操作能力 |
 
 ---
 
