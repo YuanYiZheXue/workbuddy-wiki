@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "7bf826820e34f37e",
+    "type": "split",
+    "children": [
+      {
+        "id": "0d2ce1ed91986359",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "90ad57a31f133433",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "405ea1061ff0a7be",
+    "type": "split",
+    "children": [
+      {
+        "id": "6b4326dc697266a6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c6d88ec7f0cef8b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "37bcb8394869cc42",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "8bb73a89600e405e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7bae6d39490b81de",
+    "type": "split",
+    "children": [
+      {
+        "id": "9a6c663fd4df7c7f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3d895c48806825fd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "c190647cb737a372",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "157e40614b08be57",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "bf3e1269e47b46c2",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "453b3fd3802ace2d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "90ad57a31f133433",
+  "lastOpenFiles": [
+    "test-git.md",
+    "wiki/道德经思想对Wiki框架的迭代分析.md",
+    "wiki/概念/绝圣弃智.md",
+    "wiki/概念/少则得.md",
+    "wiki/概念/婴儿.md",
+    "wiki/概念/无之以为用.md",
+    "wiki/概念/有之以为利.md",
+    "wiki/概念/知其白守其黑.md",
+    "wiki/概念/不争之德.md",
+    "wiki/概念/专气致柔.md",
+    "wiki/概念/天道vs人道.md",
+    "wiki/概念/圣人用之则为官长.md",
+    "wiki/概念/器.md",
+    "wiki/概念/朴.md",
+    "wiki/概念/周行不殆.md",
+    "wiki/概念/弱者道之用.md",
+    "wiki/概念/沌沌兮.md",
+    "wiki/概念/和光同尘.md",
+    "wiki/概念/大智若愚.md",
+    "wiki/概念/绝学无忧.md",
+    "wiki/概念/不行而知.md",
+    "wiki/概念/归根复命.md",
+    "wiki/统筹/全局视图.md",
+    "wiki/概念/大制不割.md",
+    "wiki/概念/小国寡民.md",
+    "wiki/概念/不出于户知天下.md",
+    "wiki/create_concepts.py",
+    "wiki/batch_create_concepts.py",
+    "wiki/check_files.py",
+    "wiki/generate_lint_report.py",
+    "wiki/check_links.py",
+    "raw/_boshu_content.txt",
+    "raw/read_boshu.py",
+    "raw/长沙马王堆帛书.pdf",
+    "raw/_pdf6_content.txt",
+    "raw/read_pdf6.py"
+  ]
+}
