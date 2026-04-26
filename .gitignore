@@ -6,6 +6,9 @@ wiki/对比/
 wiki/log/
 wiki/素材/
 
+# 排除PDF文件（原始素材不公开）
+raw/*.pdf
+
 # 递交索引
 !.gitignore
 !wiki/index.md
