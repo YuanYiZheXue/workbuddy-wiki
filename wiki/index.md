@@ -1,76 +1,61 @@
-# Wiki Index
+# Wiki 索引
 
 > 本文件由 WorkBuddy 在每次 ingest 后自动更新。
-> 人工也可直接编辑。
-
-## Stats
-
-| 项目 | 数量 |
-|------|------|
-| 来源摘要页 | 12 |
-| 实体页 | 7 |
-| 概念页 | 8 |
-| 对比页 | 8 |
-| 总计 | 35 |
+> 按类别组织，每个条目附一句话简介。
 
 ---
 
-## 来源摘要
+## 概念（Concepts）
 
-| 页面 | 简介 | 日期 |
-|------|------|------|
-| [[来源/2026-04-25 Effective harnesses for long-running agents]] | Anthropic 双 Agent 架构解决长运行 Agent 跨上下文窗口难题 | 2026-04-25 |
-| [[来源/2026-04-25 The Anatomy of an Agent Harness]] | Agent = Model + Harness，详解 Harness 五大核心原语 | 2026-04-25 |
-| [[来源/2026-04-25 Harness design for long-running application development]] | Generator + Evaluator 架构：从设计到全栈开发的三 Agent 系统 | 2026-04-25 |
-| [[来源/2026-04-25 What Harness Engineering Actually Means]] | 清晰区分 Prompt/Context/Harness Engineering 三者 | 2026-04-25 |
-| [[来源/2026-04-25 Improving Deep Agents with harness engineering]] | 只改 Harness 不改模型，Terminal Bench 分数从 Top30 到 Top5 | 2026-04-25 |
-| [[来源/2026-04-25 工程技术：在智能体优先的世界中利用 Codex]] | OpenAI 用 Codex 无人写代码构建百万行产品，Ralph Wiggum 循环实践 | 2026-04-25 |
-| [[来源/2026-04-25 Ralph Wiggum as a software engineer]] | Geoffrey Huntley 的 Ralph Wiggum 技巧详解：while 循环 + 子 Agent + 背压管理 | 2026-04-25 |
-| [[来源/2026-04-25 Harness engineering for coding agent users]] | 外层 Harness 框架：Computational vs Inferential、三类调节维度 | 2026-04-25 |
-| [[来源/2026-04-25 Karpathy AI+Obsidian知识库教程]] | Obsidian + Claude Code 构建知识库教程（飞书导出不完整，仅头部） | 2026-04-25 |
-| [[来源/2026-04-25 Building Effective AI Coding Agents for the Terminal]] | OPENDEV：Rust 编写的终端原生 Agent，双模式架木 + 上下文工程 | 2026-04-25 |
-| [[来源/元一思想体系]] | 元一思想完整体系：四原则箴言 + 动态制衡模型 | 2026-04-26 |
-| [[来源/2026-04-26 OpenAI Michael Bolin on Codex]] | Codex 开源负责人访谈：小而精的 Harness、沙箱跨平台、AGENTS.md 适度原则 | 2026-04-26 |
-| [[来源/元一思想-深化阐释]] | 四原则精解 + 四极飞轮动态制衡模型完整阐释 | 2026-04-26 |
+> 抽象概念、理论框架、方法论。
+
+- [[蜡烛图基础]] — 蜡烛图的构成原理、基本形态分类
+- [[反转形态]] — 预示趋势可能反转的蜡烛图形态（第3章）
+- [[持续形态]] — 预示趋势可能延续的蜡烛图形态（第4章）
+- [[酒田战法]] — 本间宗久创立的日本传统蜡烛图分析体系（第5章）
+- [[市场哲学框架]] — 从蜡烛图提炼的通用哲学思想（位置、阴阳、三数、人心）
 
 ---
 
-## 实体（7 个页面）
+## 来源（Sources）
 
-| 页面 | 简介 |
-|------|------|
-| [[实体/Anthropic]] | Claude 大模型开发方，发表长运行 Agent 双 Agent 架构实践 |
-| [[实体/LangChain]] | LLM 应用框架，系统阐述 Agent = Model + Harness 理论 |
-| [[实体/Claude Agent SDK]] | Anthropic 发布的 Agent SDK，用于构建定制化 Agent |
-| [[实体/Vivek Trivedy]] | LangChain 工程师，The Anatomy of an Agent Harness 作者 |
-| [[实体/Playwright MCP]] | 浏览器自动化 MCP 服务器，支持 Web 测试与爬虫 |
-| [[实体/LangSmith]] | LangChain 旗下 Agent 评估、追踪、调试平台 |
-| [[实体/Terminal Bench]] | Agent 基准测试平台，评估长视野终端操作能力 |
+> 原始资料的摘要页，每篇资料对应一个页面。
+
+- [[2026-04-26 蜡烛图精解]] — 蜡烛图技术分析权威著作，65种反转形态+23种持续形态的统计检验
 
 ---
 
-## 概念
+## 实体（Entities）
 
-| 页面 | 简介 |
+> 具体对象：人物、机构、产品、工具等。
+
+- 格里高里·莫里斯 — 本书作者，蜡烛图统计研究先驱
+- 赖安·里奇菲尔德 — 第10章执笔，实战交易专家
+- 本间宗久 — 酒田战法创立者（18世纪）
+- 史蒂夫·尼森 — 将蜡烛图引入西方的关键人物
+（实体页面待创建 — 自下而上原则）
+
+---
+
+## 对比（Comparisons）
+
+> 多来源之间的对比分析页。
+
+（暂无条目）
+
+---
+
+## 统计
+
+| 指标 | 数值 |
 |------|------|
-| [[概念/Agent Harness|Agent Harness]] | Agent = Model + Harness；五大原语：文件系统/代码执行/沙箱/上下文管理/长视野执行 |
-| [[概念/长运行 Agent]] | 跨多上下文窗口持续工作；Anthropic 双 Agent 架构主要解决对象 |
-| [[概念/上下文腐烂]] | Context Rot；上下文窗口填满后推理能力下降，需 Compaction/Offloading |
-| [[概念/自我验证循环]] | Generator + Evaluator 架构；生成与评估分离，强制验证后再继续 |
-| [[概念/上下文工程]] | 决定给模型什么上下文；Harness Engineering 的内部组成部分（LangChain） |
-| [[概念/Ralph Wiggum 循环]] | OpenAI Codex 实践；PR → 自我审查 → 响应反馈 → 循环直到通过 |
-| [[概念/渐进式披露]] | 给智能体地图而非百科全书；AGENTS.md 作为目录，按需深入 |
-| [[概念/元一思想]] | Wiki 的顶层哲学：体用/效度/生固/稳变 四原则 + 四极飞轮 |
+| 总页面数 | 7 |
+| 概念页 | 5 |
+| 来源页 | 1 |
+| 实体页 | 0 |
+| 覆盖来源数 | 1 |
+| 最后更新 | 2026-04-26 |
 
-## 对比（8 个页面）
+---
 
-| 页面 | 简介 |
-|------|------|
-| [[对比/Agent Harness 设计对比]] | Anthropic vs OpenDev vs LangChain 的 Harness 设计哲学对比 |
-| [[对比/上下文工程方法对比]] | Anthropic、OpenDev、LangChain、Codex 的上下文工程管理策略对比 |
-| [[对比/长期记忆方案对比]] | Obsidian、LangChain、OpenDev、Anthropic、向量数据库的长期记忆方案对比 |
-| [[对比/Wiki 构建方法论对比]] | llm-wiki（原始理念）vs 元一思想体系 vs workbuddy-wiki-schema.md（实际实现） |
-| [[对比/编码 Agent 架构对比]] | Anthropic、OpenDev、LangChain、Codex 的编码 Agent 架构对比 |
-| [[对比/模型选择策略对比]] | Anthropic、OpenDev、LangChain、Codex 的模型选择策略对比 |
-| [[对比/Agent 评估方法对比]] | Anthropic、OpenDev、LangChain、Codex 的 Agent 评估方法对比 |
-| [[对比/Prompt 工程方法对比]] | Anthropic、OpenDev、LangChain、Codex 的 Prompt 工程方法对比 |
+*本 Wiki 遵循 [workbuddy-wiki-schema.md](../workbuddy-wiki-schema.md) 构建*

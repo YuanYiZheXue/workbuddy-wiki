@@ -1,18 +1,14 @@
-# 不递交具体内容
-wiki/概念/
-wiki/实体/
-wiki/来源/
-wiki/对比/
-wiki/log/
-
-# 递交索引
-!.gitignore
-!wiki/index.md
-!wiki/统筹/
-
 # 不递交 WorkBuddy 配置
 .workbuddy/
+
+# 不递交原始素材大文件
+raw/*.epub
+raw/Images/
 
 # Python
 __pycache__/
 *.pyc
+
+# 系统文件
+.DS_Store
+Thumbs.db

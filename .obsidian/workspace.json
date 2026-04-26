@@ -178,6 +178,8 @@
   },
   "active": "5cd87140c3e6ee0a",
   "lastOpenFiles": [
+    "wiki/概念/市场哲学框架.md",
+    "wiki/概念",
     "workbuddy-wiki-schema.md",
     "wiki/index.md",
     "wiki",
@@ -189,7 +191,6 @@
     "scripts/append_memory.py",
     "scripts/append_log.py",
     "scripts/add_templates.py",
-    "scripts/add_session_mgmt.py",
     "raw/工程技术：在智能体优先的世界中利用 Codex.md",
     "raw/元一思想.md",
     "raw/元一思想-四原则新解.md",
@@ -222,7 +223,6 @@
     "raw/蜡烛图精解-合并.md",
     "raw/蜡烛图精解-去重版.md",
     "Wiki/来源/2026-04-26 蜡烛图精解.md",
-    "Wiki/log/index.md",
-    "Wiki/index.md"
+    "Wiki/log/index.md"
   ]
 }
