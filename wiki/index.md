@@ -10,8 +10,8 @@
 | 来源摘要页 | 12 |
 | 实体页 | 7 |
 | 概念页 | 8 |
-| 对比页 | 5 |
-| 总计 | 32 |
+| 对比页 | 8 |
+| 总计 | 35 |
 
 ---
 
@@ -62,7 +62,7 @@
 | [[概念/渐进式披露]] | 给智能体地图而非百科全书；AGENTS.md 作为目录，按需深入 |
 | [[概念/元一思想]] | Wiki 的顶层哲学：体用/效度/生固/稳变 四原则 + 四极飞轮 |
 
-## 对比（5 个页面）
+## 对比（8 个页面）
 
 | 页面 | 简介 |
 |------|------|
@@ -71,3 +71,6 @@
 | [[对比/长期记忆方案对比]] | Obsidian、LangChain、OpenDev、Anthropic、向量数据库的长期记忆方案对比 |
 | [[对比/Wiki 构建方法论对比]] | llm-wiki（原始理念）vs 元一思想体系 vs workbuddy-wiki-schema.md（实际实现） |
 | [[对比/编码 Agent 架构对比]] | Anthropic、OpenDev、LangChain、Codex 的编码 Agent 架构对比 |
+| [[对比/模型选择策略对比]] | Anthropic、OpenDev、LangChain、Codex 的模型选择策略对比 |
+| [[对比/Agent 评估方法对比]] | Anthropic、OpenDev、LangChain、Codex 的 Agent 评估方法对比 |
+| [[对比/Prompt 工程方法对比]] | Anthropic、OpenDev、LangChain、Codex 的 Prompt 工程方法对比 |

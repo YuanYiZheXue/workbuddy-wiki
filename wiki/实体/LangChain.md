@@ -31,6 +31,7 @@ LangChain 是一个用于构建大语言模型应用的 Python/JavaScript 框架
 
 ## 相关概念
 
+- [[概念/上下文工程]]
 - [[概念/Agent Harness|Agent Harness]]
 - [[概念/自我验证循环]] — LangChain 实践中的 Generator + Evaluator 架构
 
