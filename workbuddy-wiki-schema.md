@@ -1,4 +1,9 @@
-# WorkBuddy Wiki
+# WorkBuddy Wiki - 金融 知识库（子知识库模式）
+
+
+> **模式**：子知识库（只递交 wiki/index.md 和 wiki/统筹/）
+> **主知识库**：`YuanYiZheXue/workbuddy-wiki` (main 分支)
+> **原始 schema**：与主知识库完全一致，仅标题和模式标注不同
 
 一种利用 WorkBuddy 构建个人知识库的模式。
 

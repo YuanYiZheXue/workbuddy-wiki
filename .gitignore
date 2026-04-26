@@ -1,28 +1,18 @@
-# Obsidian 临时文件
-.obsidian/workspace*
-.obsidian/cache
-.obsidian/*.json.bak
+# 不递交具体内容
+wiki/概念/
+wiki/实体/
+wiki/来源/
+wiki/对比/
+wiki/log/
 
-# WorkBuddy 临时文件
-.workbuddy/memory/*.md
-!.workbuddy/memory/MEMORY.md
+# 递交索引
+!.gitignore
+!wiki/index.md
+!wiki/统筹/
 
-# Python 缓存
+# 不递交 WorkBuddy 配置
+.workbuddy/
+
+# Python
 __pycache__/
 *.pyc
-*.pyo
-
-# 临时文件
-*.tmp
-*.temp
-~$*
-
-# IDE 文件
-.vscode/
-.idea/
-
-# 日志文件（可选，如果想追踪 log 可以去掉）
-# wiki/log.md
-
-# 原始素材（可选，如果想追踪原始文件可以去掉）
-# raw/
