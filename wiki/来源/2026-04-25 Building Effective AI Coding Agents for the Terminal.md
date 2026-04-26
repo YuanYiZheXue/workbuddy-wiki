@@ -2,12 +2,12 @@
 type: source
 tags: [opendev, rust, terminal agent, context engineering]
 sources: [raw/Building Effective AI Coding Agents for the Terminal.pdf, raw/building-effective-ai-agents-txt.txt]
-created: 2026-04-25
+created: 2026-04-25, Building Effective AI Coding Agents for the Terminal.pdf
 ---
 
 # Building Effective AI Coding Agents for the Terminal
 
-> 来源：[[raw/Building Effective AI Coding Agents for the Terminal.pdf]]
+> 来源：
 > GitHub：https://github.com/opendev-to/opendev
 > 作者：Nghi D. Qui（OpenDev）
 
@@ -109,3 +109,15 @@ OPENDEV 不是单一 LLM 调用，而是 Agents 和 Workflows 的结构化编排
 - Model Routing：[62] 相关研究
 - Context Engineering 理论：[39, 56] 近期工作
 - Anthropic Effective Harnesses：[18] 双 Agent 架木
+
+
+## 相关页面
+- [[Agent Harness 设计对比]]
+- [[上下文工程方法对比]]
+- [[模型选择策略对比]]
+- [[编码 Agent 架构对比]]
+- [[长期记忆方案对比]]
+- [[Ralph Wiggum 循环]]
+- [[上下文工程]]
+- [[渐进式披露]]
+- [[自我验证循环]]

@@ -49,6 +49,16 @@ Wiki 方法本质上解决了同样的问题——跨会话知识持久化：
 - [[概念/上下文腐烂]]
 - [[概念/元一思想]] — 「结构求稳」的具体实践
 
+- [[Anthropic]]
+- [[Claude Agent SDK]]
+- [[2026-04-25 Effective harnesses for long-running agents]]
+- [[2026-04-25 Harness design for long-running application development]]
+- [[2026-04-25 The Anatomy of an Agent Harness]]
+- [[Ralph Wiggum 循环]]
+- [[上下文腐烂]]
+- [[自我验证循环]]
+- [[LangChain]]
+- [[元一思想]]
 ## 相关实体
 
 - [[实体/Anthropic]]

@@ -19,3 +19,7 @@ sources: []
 ## 引用来源
 
 （待补充）
+
+
+## 相关实体
+- [[2026-04-25 Harness design for long-running application development]]

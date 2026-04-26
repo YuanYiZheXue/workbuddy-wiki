@@ -2,12 +2,12 @@
 type: source
 tags: [ralph wiggum, loop, coding agent, geoffrey huntley]
 sources: [raw/Ralph Wiggum as a _software engineer_.md]
-created: 2026-04-25
+created: 2026-04-25, Ralph Wiggum as a _software engineer_
 ---
 
 # Ralph Wiggum as a "software engineer"
 
-> 来源：[[raw/Ralph Wiggum as a _software engineer_.md]]
+> 来源：
 > 原文：https://ghuntley.com/ralph/
 > 作者：Geoffrey Huntley
 
@@ -89,3 +89,12 @@ Ralph 的常见失败模式：`ripgrep` 搜索结果导致 LLM 错误判断某�
 - Ralph Wiggum 技巧原始页面：https://ghuntley.com/ralph/
 - CURSED 项目：https://github.com/repomirrorhq/repomirror/blob/main/repomirror.md
 - Venture Beat 报道：https://venturebeat.com/technology/how-ralph-wiggum-went-from-the-simpsons-to-the-biggest-name-in-ai-right-now
+
+
+## 相关页面
+- [[Agent Harness]]
+- [[Ralph Wiggum 循环]]
+- [[上下文工程]]
+- [[上下文腐烂]]
+- [[渐进式披露]]
+- [[自我验证循环]]

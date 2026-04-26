@@ -2,7 +2,7 @@
 type: comparison
 tags: [wiki-building, llm-wiki, 元一思想, methodology-comparison]
 sources: [raw/llm-wiki-zh.md, 来源/元一思想体系, workbuddy-wiki-schema.md]
-created: 2026-04-26
+created: 2026-04-26, llm-wiki-zh
 ---
 
 # Wiki 构建方法论对比
@@ -97,12 +97,18 @@ created: 2026-04-26
 
 ## 引用来源
 
-- [[raw/llm-wiki-zh.md]] — llm-wiki 中文版（无哲学基础）
+-  — llm-wiki 中文版（无哲学基础）
 - [[来源/元一思想体系]] — 元一思想完整体系（四原则 + 四极飞轮）
-- [[workbuddy-wiki-schema.md]] — 实际实现的 Schema（v0.3.0）
+-  — 实际实现的 Schema（v0.3.0）
 
 ---
 
 *本文是「对比」系列的第 4 篇。对比页的核心价值：把分散在多篇来源中的信息，用统一维度横向比较，产生新的洞察。*
 
 *关键洞察：Wiki 构建方法论的演进，正是「元一思想」中"结构求稳，接口预变"的体现——哲学（结构）保持稳定，具体实现（接口）随实践不断调整。*
+
+
+## 相关页面
+- [[模型选择策略对比]]
+- [[编码 Agent 架构对比]]
+- [[元一思想体系]]

@@ -2,12 +2,12 @@
 type: source
 tags: [harness, martin fowler, birgitta böckeler, coding agent]
 sources: [raw/Harness engineering for coding agent users.md]
-created: 2026-04-25
+created: 2026-04-25, Harness engineering for coding agent users
 ---
 
 # Harness Engineering for Coding Agent Users
 
-> 来源：[[raw/Harness engineering for coding agent users.md]]
+> 来源：
 > 原文：https://martinfowler.com/articles/harness-engineering.html
 > 作者：Birgitta Böckeler（Thoughtworks）
 
@@ -110,3 +110,8 @@ Harness 调节代码库朝向期望状态，可分为三类：
 - Stripe 的 minions：https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents
 - Approved Fixtures 模式：https://lexler.github.io/augmented-coding-patterns/patterns/approved-fixtures/
 - Architecture Fitness Function：https://www.thoughtworks.com/en-de/radar/techniques/architectural-fitness-function
+
+
+## 相关页面
+- [[上下文工程]]
+- [[自我验证循环]]

@@ -62,7 +62,37 @@ Harness 是为模型包裹的外部系统，提供模型开箱无法做到的能
 - [[概念/渐进式披露]]
 - [[概念/元一思想]] — 顶层设计哲学
 
+- [[Anthropic]]
+- [[Claude Agent SDK]]
+- [[LangChain]]
+- [[Vivek Trivedy]]
+- [[Agent Harness 设计对比]]
+- [[Agent 评估方法对比]]
+- [[Prompt 工程方法对比]]
+- [[2026-04-25 Building Effective AI Coding Agents for the Terminal]]
+- [[2026-04-25 Effective harnesses for long-running agents]]
+- [[2026-04-25 Harness design for long-running application development]]
+- [[2026-04-25 Harness engineering for coding agent users]]
+- [[2026-04-25 Improving Deep Agents with harness engineering]]
+- [[2026-04-25 Karpathy AI+Obsidian知识库教程]]
+- [[2026-04-25 The Anatomy of an Agent Harness]]
+- [[2026-04-25 What Harness Engineering Actually Means]]
+- [[2026-04-26 OpenAI Michael Bolin on Codex]]
+- [[Building Effective AI Coding Agents for the Terminal]]
+- [[Michael Bolin on Codex — 访谈转录]]
+- [[Ralph Wiggum as a software engineer]]
+- [[Ralph Wiggum 循环]]
+- [[上下文工程]]
+- [[上下文腐烂]]
+- [[渐进式披露]]
+- [[自我验证循环]]
+- [[长运行 Agent]]
+- [[元一思想]]
 ## 相关实体
 
 - [[实体/LangChain]]
 - [[实体/Anthropic]]
+
+## 相关来源
+
+- [[来源/2026-04-25 Ralph Wiggum as a software engineer]]

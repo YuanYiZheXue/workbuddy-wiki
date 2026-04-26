@@ -39,3 +39,21 @@ LangChain 是一个用于构建大语言模型应用的 Python/JavaScript 框架
 
 - [[实体/Vivek Trivedy]] — The Anatomy of an Agent Harness 作者
 - [[实体/LangSmith]] — LangChain 旗下评估平台
+
+- [[Anthropic]]
+- [[Agent Harness 设计对比]]
+- [[Agent 评估方法对比]]
+- [[Prompt 工程方法对比]]
+- [[2026-04-25 Effective harnesses for long-running agents]]
+- [[2026-04-25 Improving Deep Agents with harness engineering]]
+- [[2026-04-25 The Anatomy of an Agent Harness]]
+- [[2026-04-25 What Harness Engineering Actually Means]]
+- [[Ralph Wiggum 循环]]
+- [[上下文工程]]
+- [[上下文腐烂]]
+- [[渐进式披露]]
+- [[自我验证循环]]
+- [[长运行 Agent]]
+- [[LangSmith]]
+- [[Vivek Trivedy]]
+- [[2026-04-25 工程技术：在智能体优先的世界中利用 Codex]]

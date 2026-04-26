@@ -3,12 +3,12 @@ type: source
 tags: [agent, harness, generator-evaluator, anthropic, multi-agent]
 sources: [raw/Harness design for long-running application development.md]
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-04-25, Harness design for long-running application development
 ---
 
 # Harness Design for Long-Running Application Development
 
-> 来源：[[raw/Harness design for long-running application development]]
+> 来源：
 > 原文：https://www.anthropic.com/engineering/harness-design-long-running-apps
 > 作者：Prithvi Rajasekaran（Anthropic Labs）
 
@@ -105,3 +105,14 @@ updated: 2026-04-25
 - [[实体/Anthropic]]
 - [[实体/Claude Agent SDK]]
 - [[实体/Playwright MCP]]
+
+
+## 相关页面
+- [[Claude Agent SDK]]
+- [[Ralph Wiggum 循环]]
+- [[Anthropic]]
+- [[Playwright MCP]]
+- [[上下文腐烂]]
+- [[渐进式披露]]
+- [[自我验证循环]]
+- [[长运行 Agent]]

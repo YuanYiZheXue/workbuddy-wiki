@@ -3,12 +3,12 @@ type: source
 tags: [agent, harness, langchain, trace-analysis, self-verification]
 sources: [raw/Improving Deep Agents with harness engineering.md]
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-04-25, Improving Deep Agents with harness engineering
 ---
 
 # Improving Deep Agents with Harness Engineering
 
-> 来源：[[raw/Improving Deep Agents with harness engineering]]
+> 来源：
 > 原文：https://www.langchain.com/blog/improving-deep-agents-with-harness-engineering
 > 作者：Vivek Trivedy（LangChain）
 
@@ -124,3 +124,15 @@ updated: 2026-04-25
 - [[实体/Vivek Trivedy]]
 - [[实体/LangSmith]]
 - [[实体/Terminal Bench]]
+
+
+## 相关页面
+- [[LangChain]]
+- [[Vivek Trivedy]]
+- [[Agent Harness 设计对比]]
+- [[长期记忆方案对比]]
+- [[LangSmith]]
+- [[Terminal Bench]]
+- [[上下文工程]]
+- [[渐进式披露]]
+- [[自我验证循环]]

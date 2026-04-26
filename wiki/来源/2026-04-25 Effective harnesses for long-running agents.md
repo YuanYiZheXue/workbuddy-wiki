@@ -3,12 +3,12 @@ type: source
 tags: [agent, harness, long-running, anthropic, claude]
 sources: [raw/Effective harnesses for long-running agents.md]
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-04-25, Effective harnesses for long-running agents
 ---
 
 # Effective harnesses for long-running agents
 
-> 来源：[[raw/Effective harnesses for long-running agents]]
+> 来源：
 > 原文：https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents
 > 作者：Justin Young（Anthropic）
 
@@ -78,3 +78,14 @@ Anthropic 提出用「初始化 Agent + 编码 Agent」双 Agent 架构，配合
 - [[概念/Agent Harness]]
 - [[概念/长运行 Agent]]
 - [[概念/上下文腐烂]]
+
+
+## 相关页面
+- [[Anthropic]]
+- [[上下文工程方法对比]]
+- [[模型选择策略对比]]
+- [[编码 Agent 架构对比]]
+- [[长期记忆方案对比]]
+- [[LangChain]]
+- [[上下文腐烂]]
+- [[长运行 Agent]]

@@ -190,6 +190,6 @@ OPENV 设计体现了元一思想的多个原则：
 
 ## 相关实体
 
-- [[实体/OpenDev]] — OPENDEV 系统
-- [[实体/Nghi D. Qui]] — 论文作者
-- [[实体/Rust]] — OPENDEV 的实现语言
+-  — OPENDEV 系统
+-  — 论文作者
+-  — OPENDEV 的实现语言

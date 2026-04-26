@@ -3,12 +3,12 @@ type: source
 tags: [agent, harness, langchain, filesystem, sandbox, context-rot]
 sources: [raw/The Anatomy of an Agent Harness.md]
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-04-25, The Anatomy of an Agent Harness
 ---
 
 # The Anatomy of an Agent Harness
 
-> 来源：[[raw/The Anatomy of an Agent Harness]]
+> 来源：
 > 原文：https://www.langchain.com/blog/the-anatomy-of-an-agent-harness
 > 作者：Vivek Trivedy（LangChain）
 
@@ -113,3 +113,15 @@ Harness 的应对策略：
 
 - [[实体/Anthropic]]（对比参考）
 
+
+
+## 相关页面
+- [[LangChain]]
+- [[Vivek Trivedy]]
+- [[Agent Harness 设计对比]]
+- [[2026-04-25 Karpathy AI+Obsidian知识库教程]]
+- [[Anthropic]]
+- [[上下文腐烂]]
+- [[渐进式披露]]
+- [[自我验证循环]]
+- [[长运行 Agent]]

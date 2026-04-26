@@ -141,5 +141,5 @@ Ralph Wiggum 技术体现了元一思想的多个原则：
 
 ## 相关实体
 
-- [[实体/Geoffrey Huntley]] — 文章作者
-- [[实体/Claude Code]] — Ralph 技术使用的工具
+-  — 文章作者
+-  — Ralph 技术使用的工具

@@ -3,12 +3,12 @@ type: source
 tags: [harness-engineering, prompt-engineering, context-engineering, louis-bouchard]
 sources: [raw/What Harness Engineering Actually Means.md]
 created: 2026-04-25
-updated: 2026-04-25
+updated: 2026-04-25, What Harness Engineering Actually Means
 ---
 
 # What Harness Engineering Actually Means
 
-> 来源：[[raw/What Harness Engineering Actually Means]]
+> 来源：
 > 视频：https://www.youtube.com/watch?v=zYerCzIexCg
 > 作者：Louis-François Bouchard（What's AI）
 
@@ -106,3 +106,14 @@ updated: 2026-04-25
 - [[实体/Anthropic]]（Claude Code）
 - [[实体/LangChain]]（Mitchell Hashimoto 提及）
 - [[实体/Cursor]]
+
+
+## 相关页面
+- [[Anthropic]]
+- [[上下文工程方法对比]]
+- [[编码 Agent 架构对比]]
+- [[渐进式披露]]
+- [[Cursor]]
+- [[LangChain]]
+- [[上下文工程]]
+- [[上下文腐烂]]

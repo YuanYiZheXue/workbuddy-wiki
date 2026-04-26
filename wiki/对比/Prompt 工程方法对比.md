@@ -172,4 +172,12 @@ sources: [来源/2026-04-25 What Harness Engineering Actually Means, 来源/2026
 
 - [[实体/Anthropic]] — 手工模板 + 动态注入方法提出者
 - [[实体/LangChain]] — LCEL 声明式 Prompt 定义
-- [[实体/OpenAI]] — 自然语言 + 自动补全方法实践者
+-  — 自然语言 + 自动补全方法实践者
+
+
+## 相关页面
+- [[Anthropic]]
+- [[LangChain]]
+- [[Agent Harness]]
+- [[上下文工程]]
+- [[渐进式披露]]

@@ -176,4 +176,12 @@ sources: [来源/2026-04-25 Effective harnesses for long-running agents, 来源/
 
 - [[实体/Anthropic]] — Evaluator Agent 方法提出者
 - [[实体/LangChain]] — LangSmith Tracing 提供者
-- [[实体/OpenAI]] — Codex 评估方法实践者
+-  — Codex 评估方法实践者
+
+
+## 相关页面
+- [[Anthropic]]
+- [[LangChain]]
+- [[Agent Harness]]
+- [[上下文工程]]
+- [[自我验证循环]]

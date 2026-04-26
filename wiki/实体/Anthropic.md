@@ -38,3 +38,17 @@ Anthropic 是一家致力于 AI 安全研究的公司，由 Dario Amodei 和 Dan
 ## 相关实体
 
 - [[实体/LangChain]] — 将 Anthropic 模型应用于 Agent 开发的主流框架
+
+- [[Agent Harness 设计对比]]
+- [[Agent 评估方法对比]]
+- [[Prompt 工程方法对比]]
+- [[2026-04-25 Effective harnesses for long-running agents]]
+- [[2026-04-25 Harness design for long-running application development]]
+- [[2026-04-25 The Anatomy of an Agent Harness]]
+- [[2026-04-25 What Harness Engineering Actually Means]]
+- [[上下文工程]]
+- [[自我验证循环]]
+- [[长运行 Agent]]
+- [[LangChain]]
+- [[2026-04-25 工程技术：在智能体优先的世界中利用 Codex]]
+- [[上下文腐烂]]

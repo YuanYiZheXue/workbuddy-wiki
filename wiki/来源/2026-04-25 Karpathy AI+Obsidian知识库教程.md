@@ -2,12 +2,12 @@
 type: source
 tags: [karpathy, obsidian, knowledge base, claude code]
 sources: [raw/Karpathy-AI+Obsidian知识库教程-栗氪聊AI - 飞书云文档.md]
-created: 2026-04-25
+created: 2026-04-25, Karpathy-AI+Obsidian知识库教程-栗氪聊AI - 飞书云文档
 ---
 
 # Karpathy AI+Obsidian知识库教程（飞书云文档，导出不完整）
 
-> 来源：[[raw/Karpathy-AI+Obsidian知识库教程-栗氪聊AI - 飞书云文档.md]]
+> 来源：
 > 原文：https://my.feishu.cn/wiki/LLtjwi38FiuWvKkgfPYcWiGFnab
 > 来源类型：飞书云文档导出（截断，仅33行）
 
@@ -37,3 +37,7 @@ created: 2026-04-25
 
 - [ ] 重新获取完整文档
 - [ ] 或跳过此来源（已有同类内容：[[来源/2026-04-25 The Anatomy of an Agent Harness]]）
+
+
+## 相关页面
+- [[2026-04-25 The Anatomy of an Agent Harness]]

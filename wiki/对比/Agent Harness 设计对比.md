@@ -140,7 +140,7 @@ created: 2026-04-26
 ## 相关实体
 
 - [[实体/Anthropic]]
-- [[实体/OpenDev]]
+- 
 - [[实体/LangChain]]
 - [[实体/LangSmith]]
 
@@ -149,3 +149,18 @@ created: 2026-04-26
 - [[来源/2026-04-25 The Anatomy of an Agent Harness]]
 - [[来源/2026-04-25 Building Effective AI Coding Agents for the Terminal]]
 - [[来源/2026-04-25 Improving Deep Agents with harness engineering]]
+
+
+## 相关页面
+- [[模型选择策略对比]]
+- [[编码 Agent 架构对比]]
+- [[Anthropic]]
+- [[LangChain]]
+- [[LangSmith]]
+- [[2026-04-25 Building Effective AI Coding Agents for the Terminal]]
+- [[2026-04-25 Improving Deep Agents with harness engineering]]
+- [[2026-04-25 The Anatomy of an Agent Harness]]
+- [[Agent Harness]]
+- [[上下文工程]]
+- [[渐进式披露]]
+- [[自我验证循环]]

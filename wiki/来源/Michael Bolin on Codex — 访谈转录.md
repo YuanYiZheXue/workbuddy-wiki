@@ -107,10 +107,15 @@ Michael Bolin 的观点体现了元一思想的多个原则：
 
 - [[概念/Agent Harness]] — Michael Bolin 详细解释的概念
 - [[概念/上下文工程]] — Michael 提到太多上下文可能让智能体变得更差
-- [[概念/安全沙箱]] — Codex 跨操作系统处理的议题
+-  — Codex 跨操作系统处理的议题
 
 ## 相关实体
 
-- [[实体/Michael Bolin]] — 访谈嘉宾，OpenAI Codex 开源负责人
-- [[实体/OpenAI]] — Michael Bolin 所在的公司
-- [[实体/Codex]] — Michael Bolin 领导的开源项目
+-  — 访谈嘉宾，OpenAI Codex 开源负责人
+-  — Michael Bolin 所在的公司
+-  — Michael Bolin 领导的开源项目
+
+
+## 相关页面
+- [[Agent Harness]]
+- [[上下文工程]]
