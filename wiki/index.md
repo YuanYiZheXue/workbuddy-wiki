@@ -74,3 +74,11 @@
 | [[对比/模型选择策略对比]] | Anthropic、OpenDev、LangChain、Codex 的模型选择策略对比 |
 | [[对比/Agent 评估方法对比]] | Anthropic、OpenDev、LangChain、Codex 的 Agent 评估方法对比 |
 | [[对比/Prompt 工程方法对比]] | Anthropic、OpenDev、LangChain、Codex 的 Prompt 工程方法对比 |
+
+---
+
+## 统筹
+
+| 页面 | 简介 |
+|------|------|
+| [[统筹/工具能力建设顶层设计]] | 工具分层建设策略、验证记录表、缺失工具立项清单 |
