@@ -1,0 +1,56 @@
+{
+  "name": "概念列表",
+  "type": "table",
+  "description": "Wiki概念页总览 - 自动汇总所有概念页",
+  "filters": [
+    {
+      "type": "path",
+      "path": "wiki/概念",
+      "includeSubfolders": false
+    }
+  ],
+  "fields": [
+    {
+      "name": "文件名",
+      "type": "fileName",
+      "width": 200
+    },
+    {
+      "name": "标题",
+      "type": "frontmatter",
+      "key": "title",
+      "width": 200,
+      "fallback": "文件名（去除.md）"
+    },
+    {
+      "name": "类型",
+      "type": "frontmatter",
+      "key": "类型",
+      "width": 120
+    },
+    {
+      "name": "标签",
+      "type": "frontmatter",
+      "key": "标签",
+      "width": 200
+    },
+    {
+      "name": "来源",
+      "type": "frontmatter",
+      "key": "来源",
+      "width": 250
+    },
+    {
+      "name": "更新时间",
+      "type": "fileModified",
+      "width": 160
+    }
+  ],
+  "sortBy": [
+    {
+      "type": "fileName",
+      "order": "asc"
+    }
+  ],
+  "pageSize": 20
+}
