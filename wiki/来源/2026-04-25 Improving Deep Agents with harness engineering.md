@@ -127,12 +127,12 @@ updated: 2026-04-25, Improving Deep Agents with harness engineering
 
 
 ## 相关页面
-- [[LangChain]]
-- [[Vivek Trivedy]]
-- [[Agent Harness 设计对比]]
-- [[长期记忆方案对比]]
-- [[LangSmith]]
-- [[Terminal Bench]]
-- [[上下文工程]]
-- [[渐进式披露]]
-- [[自我验证循环]]
+- [[实体/LangChain]]
+- [[实体/Vivek Trivedy]]
+- [[对比/Agent Harness 设计对比]]
+- [[对比/长期记忆方案对比]]
+- [[实体/LangSmith]]
+- [[实体/Terminal Bench]]
+- [[概念/上下文工程]]
+- [[概念/渐进式披露]]
+- [[概念/自我验证循环]]

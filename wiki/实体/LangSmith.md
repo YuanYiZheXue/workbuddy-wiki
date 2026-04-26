@@ -22,6 +22,6 @@ sources: []
 
 
 ## 相关实体
-- [[LangChain]]
-- [[Agent Harness 设计对比]]
-- [[2026-04-25 Improving Deep Agents with harness engineering]]
+- [[实体/LangChain]]
+- [[对比/Agent Harness 设计对比]]
+- [[来源/2026-04-25 Improving Deep Agents with harness engineering]]

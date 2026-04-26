@@ -109,11 +109,11 @@ updated: 2026-04-25, What Harness Engineering Actually Means
 
 
 ## 相关页面
-- [[Anthropic]]
-- [[上下文工程方法对比]]
-- [[编码 Agent 架构对比]]
-- [[渐进式披露]]
-- [[Cursor]]
-- [[LangChain]]
-- [[上下文工程]]
-- [[上下文腐烂]]
+- [[实体/Anthropic]]
+- [[对比/上下文工程方法对比]]
+- [[对比/编码 Agent 架构对比]]
+- [[概念/渐进式披露]]
+- [[实体/Cursor]]
+- [[实体/LangChain]]
+- [[概念/上下文工程]]
+- [[概念/上下文腐烂]]

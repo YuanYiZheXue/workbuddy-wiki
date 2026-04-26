@@ -40,4 +40,4 @@ created: 2026-04-25, Karpathy-AI+Obsidian知识库教程-栗氪聊AI - 飞书云
 
 
 ## 相关页面
-- [[2026-04-25 The Anatomy of an Agent Harness]]
+- [[来源/2026-04-25 The Anatomy of an Agent Harness]]

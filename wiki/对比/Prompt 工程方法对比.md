@@ -176,8 +176,8 @@ sources: [来源/2026-04-25 What Harness Engineering Actually Means, 来源/2026
 
 
 ## 相关页面
-- [[Anthropic]]
-- [[LangChain]]
-- [[Agent Harness]]
-- [[上下文工程]]
-- [[渐进式披露]]
+- [[实体/Anthropic]]
+- [[实体/LangChain]]
+- [[概念/Agent Harness]]
+- [[概念/上下文工程]]
+- [[概念/渐进式披露]]

@@ -27,8 +27,8 @@ LangChain 工程师，参与 Agent Harness 和 Agent 评估相关研究。
 
 
 ## 相关实体
-- [[LangChain]]
-- [[2026-04-25 Improving Deep Agents with harness engineering]]
-- [[2026-04-25 The Anatomy of an Agent Harness]]
-- [[上下文工程]]
-- [[自我验证循环]]
+- [[实体/LangChain]]
+- [[来源/2026-04-25 Improving Deep Agents with harness engineering]]
+- [[来源/2026-04-25 The Anatomy of an Agent Harness]]
+- [[概念/上下文工程]]
+- [[概念/自我验证循环]]

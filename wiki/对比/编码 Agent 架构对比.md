@@ -245,12 +245,12 @@ REPL Loop（处理结果）
 
 
 ## 相关页面
-- [[模型选择策略对比]]
-- [[Agent Harness 设计对比]]
-- [[Wiki 构建方法论对比]]
-- [[上下文工程方法对比]]
-- [[长期记忆方案对比]]
-- [[2026-04-25 Building Effective AI Coding Agents for the Terminal]]
-- [[2026-04-25 Effective harnesses for long-running agents]]
-- [[2026-04-25 What Harness Engineering Actually Means]]
-- [[上下文工程]]
+- [[对比/模型选择策略对比]]
+- [[对比/Agent Harness 设计对比]]
+- [[对比/Wiki 构建方法论对比]]
+- [[对比/上下文工程方法对比]]
+- [[对比/长期记忆方案对比]]
+- [[来源/2026-04-25 Building Effective AI Coding Agents for the Terminal]]
+- [[来源/2026-04-25 Effective harnesses for long-running agents]]
+- [[来源/2026-04-25 What Harness Engineering Actually Means]]
+- [[概念/上下文工程]]

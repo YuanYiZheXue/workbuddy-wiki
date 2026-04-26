@@ -56,17 +56,17 @@ Ingest 流程可以借鉴这个循环：
 - [[概念/长运行 Agent]]
 - [[概念/元一思想]] — 顶层设计哲学
 
-- [[2026-04-25 Building Effective AI Coding Agents for the Terminal]]
-- [[2026-04-25 Ralph Wiggum as a software engineer]]
-- [[2026-04-26 OpenAI Michael Bolin on Codex]]
-- [[Ralph Wiggum as a software engineer]]
-- [[LangChain]]
-- [[2026-04-25 Harness design for long-running application development]]
-- [[2026-04-25 工程技术：在智能体优先的世界中利用 Codex]]
-- [[Agent Harness]]
-- [[元一思想]]
-- [[自我验证循环]]
-- [[长运行 Agent]]
+- [[来源/2026-04-25 Building Effective AI Coding Agents for the Terminal]]
+- [[来源/2026-04-25 Ralph Wiggum as a software engineer]]
+- [[来源/2026-04-26 OpenAI Michael Bolin on Codex]]
+- [[来源/Ralph Wiggum as a software engineer]]
+- [[实体/LangChain]]
+- [[来源/2026-04-25 Harness design for long-running application development]]
+- [[来源/2026-04-25 工程技术：在智能体优先的世界中利用 Codex]]
+- [[概念/Agent Harness]]
+- [[概念/元一思想]]
+- [[概念/自我验证循环]]
+- [[概念/长运行 Agent]]
 ## 相关实体
 
 -  — Codex 工程团队实践者

@@ -180,8 +180,8 @@ sources: [来源/2026-04-25 Effective harnesses for long-running agents, 来源/
 
 
 ## 相关页面
-- [[Anthropic]]
-- [[LangChain]]
-- [[Agent Harness]]
-- [[上下文工程]]
-- [[自我验证循环]]
+- [[实体/Anthropic]]
+- [[实体/LangChain]]
+- [[概念/Agent Harness]]
+- [[概念/上下文工程]]
+- [[概念/自我验证循环]]

@@ -117,5 +117,5 @@ Michael Bolin 的观点体现了元一思想的多个原则：
 
 
 ## 相关页面
-- [[Agent Harness]]
-- [[上下文工程]]
+- [[概念/Agent Harness]]
+- [[概念/上下文工程]]

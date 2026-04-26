@@ -116,12 +116,12 @@ Harness 的应对策略：
 
 
 ## 相关页面
-- [[LangChain]]
-- [[Vivek Trivedy]]
-- [[Agent Harness 设计对比]]
-- [[2026-04-25 Karpathy AI+Obsidian知识库教程]]
-- [[Anthropic]]
-- [[上下文腐烂]]
-- [[渐进式披露]]
-- [[自我验证循环]]
-- [[长运行 Agent]]
+- [[实体/LangChain]]
+- [[实体/Vivek Trivedy]]
+- [[对比/Agent Harness 设计对比]]
+- [[来源/2026-04-25 Karpathy AI+Obsidian知识库教程]]
+- [[实体/Anthropic]]
+- [[概念/上下文腐烂]]
+- [[概念/渐进式披露]]
+- [[概念/自我验证循环]]
+- [[概念/长运行 Agent]]

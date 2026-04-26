@@ -108,11 +108,11 @@ updated: 2026-04-25, Harness design for long-running application development
 
 
 ## 相关页面
-- [[Claude Agent SDK]]
-- [[Ralph Wiggum 循环]]
-- [[Anthropic]]
-- [[Playwright MCP]]
-- [[上下文腐烂]]
-- [[渐进式披露]]
-- [[自我验证循环]]
-- [[长运行 Agent]]
+- [[实体/Claude Agent SDK]]
+- [[概念/Ralph Wiggum 循环]]
+- [[实体/Anthropic]]
+- [[实体/Playwright MCP]]
+- [[概念/上下文腐烂]]
+- [[概念/渐进式披露]]
+- [[概念/自我验证循环]]
+- [[概念/长运行 Agent]]
