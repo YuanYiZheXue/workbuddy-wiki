@@ -3,6 +3,10 @@
 > 仓库地址：<https://github.com/YuanYiZheXue/workbuddy-wiki>
 > 
 > 作者：YuanYi
+>
+> **发布状态**：✅ 已发布 | **发布时间**：2026-04-26
+> **发布链接**：https://forum-zh.obsidian.md/t/topic/60909
+> **评论状态**：暂未收到评论，后续可从 Obsidian 中文社区汲取反馈
 
 ## 写在前面
 
