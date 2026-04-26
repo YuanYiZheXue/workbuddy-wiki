@@ -814,3 +814,45 @@ wiki/
 
 ---
 
+## [2026-04-26] 处理剩余 raw 文件（生成 12 个来源摘要页）
+
+### 执行内容
+
+#### 1. 融入三个新洞见到 `wiki/概念/元一思想.md`
+- 新增章节：元框架（Meta-Framework）
+- 新增章节：模块化与可组合性
+- 新增章节：非线性与涌现
+- 已提交并推送：标签 `v2026-04-26-eb66a05`
+
+#### 2. 完善双向链接（修复了很多文件）
+- 修复 `Agent Harness.md`、`上下文腐烂.md`、`渐进式披露.md`、`LangChain.md`、`自我验证循环.md`、`长运行 Agent.md`、`Ralph Wiggum 循环.md`、`上下文工程.md`、`Anthropic.md` 的双向链接
+- 确保所有概念页和实体页之间的链接都是双向的
+- 已提交并推送：标签 `v2026-04-26-2dea1a3`
+
+#### 3. 处理剩余 raw 文件（生成来源摘要页）
+- `wiki/来源/Karpathy-AI+Obsidian知识库教程.md`
+- `wiki/来源/Ralph Wiggum as a software engineer.md`
+- `wiki/来源/LLM Wiki.md`
+- `wiki/来源/Building Effective AI Coding Agents for the Terminal.md`
+- `wiki/来源/Michael Bolin on Codex — 访谈转录.md`
+- 总共生成了 12 个来源摘要页
+- 已提交并推送：标签 `v2026-04-26-22c3631`
+
+### 文件清单
+
+**创建的文件**：
+- `wiki/来源/Karpathy-AI+Obsidian知识库教程.md`
+- `wiki/来源/Ralph Wiggum as a software engineer.md`
+- `wiki/来源/LLM Wiki.md`
+- `wiki/来源/Building Effective AI Coding Agents for the Terminal.md`
+- `wiki/来源/Michael Bolin on Codex — 访谈转录.md`
+
+**更新的文件**：
+- `wiki/概念/元一思想.md` — 融入三个新洞见
+- `wiki/概念/Agent Harness.md`、`上下文工程.md`、`上下文腐烂.md`、`渐进式披露.md`、`自我验证循环.md`、`长运行 Agent.md`、`Ralph Wiggum 循环.md` — 完善双向链接
+- `wiki/实体/Anthropic.md`、`LangChain.md` — 完善双向链接
+- `wiki/index.md` — Stats 更新（来源摘要页 12，总计 35）
+- `wiki/log.md` — 追加工作记录
+
+---
+
