@@ -92,6 +92,77 @@ cd workbuddy-wiki
 
 ---
 
+## 子知识库工作空间
+
+本系统支持**一个主知识库 + 多个子知识库**的架构。每个子知识库是独立的工作空间（独立 Obsidian vault），通过 Git 分支与主仓库关联。
+
+### 架构说明
+
+```
+主仓库 (main 分支)
+├── wiki/              # 主知识库（概念/实体/来源/对比）
+├── scripts/           # 共享脚本
+└── workbuddy-wiki-schema.md
+
+子知识库分支 (kb/philosophy)
+├── wiki/
+│   ├── index.md       # 子知识库索引
+│   └── 统筹/          # 框架文件
+├── scripts/           # 完整框架脚本（从主仓库复制）
+└── workbuddy-wiki-schema.md  # 主仓库完整版 + 子知识库标注
+
+子工作空间 (独立目录，如 d:/Obsidian_KN/哲学)
+└── (clone 自 kb/philosophy 分支)
+```
+
+### 一键创建子知识库
+
+使用 `scripts/setup_kb_branch_v2.py`（v7，纯增量零删除）：
+
+```bash
+# 在主仓库根目录运行
+python scripts/setup_kb_branch_v2.py <branch> <workspace_dir> <kb_name> <agent_name> [emoji] [--force]
+
+# 示例：创建哲学子知识库
+python scripts/setup_kb_branch_v2.py kb/philosophy d:/Obsidian_KN/哲学 哲学 哲哲 📕
+```
+
+**参数说明**：
+
+| 参数 | 说明 | 示例 |
+|------|------|------|
+| `branch` | 远程分支名 | `kb/philosophy` |
+| `workspace_dir` | 子工作空间本地路径 | `d:/Obsidian_KN/哲学` |
+| `kb_name` | 知识库名称 | `哲学` |
+| `agent_name` | Agent 名称 | `哲哲` |
+| `emoji` | 图标（可选） | `📕` |
+| `--force` | 强制覆盖配置文件（可选） | `--force` |
+
+### 核心原则（v7）
+
+1. **纯增量，零删除** — 不删除任何已有内容
+2. **`--force` 只覆盖配置文件** — `SOUL.md`/`IDENTITY.md`/`scripts/`/`.gitignore`，不碰 `wiki/` 知识内容
+3. **工作空间已存在** → `git pull` 增量更新
+4. **分支已存在** → 跳过清理步骤
+5. **子知识库 schema = 主仓库完整版 + 标注** — 子 Agent 能看到完整构建方法
+6. **框架文件全量复制** — `scripts/` 所有 `.py`、`wiki/统筹/` 所有文件
+7. **知识内容永远不碰** — `wiki/概念/`、`wiki/实体/` 等由子 Agent 自行创建
+
+### 已配置的子知识库
+
+| 分支 | 工作空间 | 知识库名 | Agent | 状态 |
+|------|----------|----------|-------|------|
+| `kb/philosophy` | `d:/Obsidian_KN/哲学` | 哲学 | 哲哲 📕 | ✅ 已配置 |
+
+### 在 WorkBuddy 中使用子知识库
+
+1. 打开 WorkBuddy，选择「切换工作区」
+2. 选择子工作空间目录（如 `d:/Obsidian_KN/哲学`）
+3. WorkBuddy 会自动读取该目录下的 `SOUL.md` 和 `workbuddy-wiki-schema.md`
+4. 开始构建子知识库（参考 `workbuddy-wiki-schema.md` 中的完整流程）
+
+---
+
 ## Wiki 结构
 
 ```
