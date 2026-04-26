@@ -1,76 +1,108 @@
-# Wiki Index
+# Wiki Index - 数学 知识库
 
-> 本文件由 WorkBuddy 在每次 ingest 后自动更新。
-> 人工也可直接编辑。
-
-## Stats
-
-| 项目 | 数量 |
-|------|------|
-| 来源摘要页 | 12 |
-| 实体页 | 7 |
-| 概念页 | 8 |
-| 对比页 | 8 |
-| 总计 | 35 |
+> 子知识库模式｜主知识库：YuanYiZheXue/workbuddy-wiki (main)
+> 最后更新：2026-04-26
 
 ---
 
-## 来源摘要
+## 统计信息
 
-| 页面 | 简介 | 日期 |
-|------|------|------|
-| [[来源/2026-04-25 Effective harnesses for long-running agents]] | Anthropic 双 Agent 架构解决长运行 Agent 跨上下文窗口难题 | 2026-04-25 |
-| [[来源/2026-04-25 The Anatomy of an Agent Harness]] | Agent = Model + Harness，详解 Harness 五大核心原语 | 2026-04-25 |
-| [[来源/2026-04-25 Harness design for long-running application development]] | Generator + Evaluator 架构：从设计到全栈开发的三 Agent 系统 | 2026-04-25 |
-| [[来源/2026-04-25 What Harness Engineering Actually Means]] | 清晰区分 Prompt/Context/Harness Engineering 三者 | 2026-04-25 |
-| [[来源/2026-04-25 Improving Deep Agents with harness engineering]] | 只改 Harness 不改模型，Terminal Bench 分数从 Top30 到 Top5 | 2026-04-25 |
-| [[来源/2026-04-25 工程技术：在智能体优先的世界中利用 Codex]] | OpenAI 用 Codex 无人写代码构建百万行产品，Ralph Wiggum 循环实践 | 2026-04-25 |
-| [[来源/2026-04-25 Ralph Wiggum as a software engineer]] | Geoffrey Huntley 的 Ralph Wiggum 技巧详解：while 循环 + 子 Agent + 背压管理 | 2026-04-25 |
-| [[来源/2026-04-25 Harness engineering for coding agent users]] | 外层 Harness 框架：Computational vs Inferential、三类调节维度 | 2026-04-25 |
-| [[来源/2026-04-25 Karpathy AI+Obsidian知识库教程]] | Obsidian + Claude Code 构建知识库教程（飞书导出不完整，仅头部） | 2026-04-25 |
-| [[来源/2026-04-25 Building Effective AI Coding Agents for the Terminal]] | OPENDEV：Rust 编写的终端原生 Agent，双模式架木 + 上下文工程 | 2026-04-25 |
-| [[来源/元一思想体系]] | 元一思想完整体系：四原则箴言 + 动态制衡模型 | 2026-04-26 |
-| [[来源/2026-04-26 OpenAI Michael Bolin on Codex]] | Codex 开源负责人访谈：小而精的 Harness、沙箱跨平台、AGENTS.md 适度原则 | 2026-04-26 |
-| [[来源/元一思想-深化阐释]] | 四原则精解 + 四极飞轮动态制衡模型完整阐释 | 2026-04-26 |
+| 项目 | 数值 |
+|------|--------|
+| 总页面数 | 43 |
+| 覆盖来源数 | 1 |
+| 概念页数 | 32 |
+| 章首页数 | 4 |
+| 思想页数 | 7 |
+| 实体页数 | 0 |
+| 最后 ingest | 2026-04-26 |
 
 ---
 
-## 实体（7 个页面）
+## 目录
 
-| 页面 | 简介 |
-|------|------|
-| [[实体/Anthropic]] | Claude 大模型开发方，发表长运行 Agent 双 Agent 架构实践 |
-| [[实体/LangChain]] | LLM 应用框架，系统阐述 Agent = Model + Harness 理论 |
-| [[实体/Claude Agent SDK]] | Anthropic 发布的 Agent SDK，用于构建定制化 Agent |
-| [[实体/Vivek Trivedy]] | LangChain 工程师，The Anatomy of an Agent Harness 作者 |
-| [[实体/Playwright MCP]] | 浏览器自动化 MCP 服务器，支持 Web 测试与爬虫 |
-| [[实体/LangSmith]] | LangChain 旗下 Agent 评估、追踪、调试平台 |
-| [[实体/Terminal Bench]] | Agent 基准测试平台，评估长视野终端操作能力 |
+### 来源（Sources）
+> 每篇原始资料的摘要页，格式：`YYYY-MM-DD 标题.md`
+
+- [[来源/2026-04-26 Principles of Mathematical Analysis|Principles of Mathematical Analysis（Rudin）]] — 数学分析经典教材，第3版（1976）
 
 ---
 
-## 概念
+### 章首页（Chapter Overviews）
+> 每章的顶层组织页，提供概念地图、核心思想与学习要点
 
-| 页面 | 简介 |
-|------|------|
-| [[概念/Agent Harness|Agent Harness]] | Agent = Model + Harness；五大原语：文件系统/代码执行/沙箱/上下文管理/长视野执行 |
-| [[概念/长运行 Agent]] | 跨多上下文窗口持续工作；Anthropic 双 Agent 架构主要解决对象 |
-| [[概念/上下文腐烂]] | Context Rot；上下文窗口填满后推理能力下降，需 Compaction/Offloading |
-| [[概念/自我验证循环]] | Generator + Evaluator 架构；生成与评估分离，强制验证后再继续 |
-| [[概念/上下文工程]] | 决定给模型什么上下文；Harness Engineering 的内部组成部分（LangChain） |
-| [[概念/Ralph Wiggum 循环]] | OpenAI Codex 实践；PR → 自我审查 → 响应反馈 → 循环直到通过 |
-| [[概念/渐进式披露]] | 给智能体地图而非百科全书；AGENTS.md 作为目录，按需深入 |
-| [[概念/元一思想]] | Wiki 的顶层哲学：体用/效度/生固/稳变 四原则 + 四极飞轮 |
+- [[章首页/第1章 实数与复数系]] — 有序集、域、最小上界性质
+- [[章首页/第2章 基础拓扑]] — 度量空间、开集、紧集、连通集
+- [[章首页/第3章 数列与级数]] — 序列收敛、Cauchy准则、级数判别法
+- [[章首页/第4章 连续性]] — 函数极限、连续、一致连续、最值定理
 
-## 对比（8 个页面）
+---
 
-| 页面 | 简介 |
-|------|------|
-| [[对比/Agent Harness 设计对比]] | Anthropic vs OpenDev vs LangChain 的 Harness 设计哲学对比 |
-| [[对比/上下文工程方法对比]] | Anthropic、OpenDev、LangChain、Codex 的上下文工程管理策略对比 |
-| [[对比/长期记忆方案对比]] | Obsidian、LangChain、OpenDev、Anthropic、向量数据库的长期记忆方案对比 |
-| [[对比/Wiki 构建方法论对比]] | llm-wiki（原始理念）vs 元一思想体系 vs workbuddy-wiki-schema.md（实际实现） |
-| [[对比/编码 Agent 架构对比]] | Anthropic、OpenDev、LangChain、Codex 的编码 Agent 架构对比 |
-| [[对比/模型选择策略对比]] | Anthropic、OpenDev、LangChain、Codex 的模型选择策略对比 |
-| [[对比/Agent 评估方法对比]] | Anthropic、OpenDev、LangChain、Codex 的 Agent 评估方法对比 |
-| [[对比/Prompt 工程方法对比]] | Anthropic、OpenDev、LangChain、Codex 的 Prompt 工程方法对比 |
+### 思想（Mathematical Thinking）
+> 从资料中提炼的高层数学哲学和方法论，回答"怎么想"
+
+- [[思想/从具体到抽象]] — Rudin 的渐进抽象路线：ℝ → 度量空间 → 拓扑
+- [[思想/等价刻画的力量]] — 同一概念的多角度定义，各有适用场景
+- [[思想/反例的设计哲学]] — 划定边界，打破直觉，揭示定理的适用条件
+- [[思想/公理化方法]] — 不构造实数，直接给公理（Rudin 第1章）
+- [[思想/紧性的威力]] — 紧集上的好性质自动成立（最值定理、一致连续）
+- [[思想/一致 vs 逐点]] — 一致性质远强于逐点性质，紧性是桥梁
+- [[思想/确界驱动收敛]] — 最小上界性质驱动整个收敛理论
+
+---
+
+### 概念（Concepts）
+> 从资料中提炼的核心概念页
+
+**第1章：实数与复数系**
+- [[概念/有序集]] — 序关系的基本定义，分析的基础结构
+- [[概念/域（代数）]] — 加法和乘法的公理体系
+- [[概念/实数域]] — 具有最小上界性质的完备有序域
+- [[概念/最小上界性质]] — 实数域核心性质，有理数不具有此性质
+
+**第2章：基础拓扑**
+- [[概念/度量空间]] — 距离函数、邻域定义的基础
+- [[概念/邻域]] — 拓扑基本概念，开集的构件
+- [[概念/开集]] — 每点都是内点的集合
+- [[概念/闭集]] — 包含所有极限点的集合
+- [[概念/闭包]] — 集合与其极限点的并
+- [[概念/紧集]] — 任意开覆盖有有限子覆盖（Heine-Borel）
+- [[概念/连通集]] — 不能分解为两个分离非空子集的集
+- [[概念/完美集合]] — 闭集且每点都是极限点（必不可数）
+- [[概念/康托集]] — 完美、无处稠密、测度为零的不可数集例子
+
+**第3章：数列与级数**
+- [[概念/序列收敛]] — 度量空间中序列收敛的定义与基本性质
+- [[概念/子序列]] — 从序列中选出的子列及其收敛性质
+- [[概念/Cauchy序列]] — 收敛的充要条件（在完备空间中）
+- [[概念/上极限与下极限]] — 处理不收敛序列的工具
+- [[概念/级数]] — 级数收敛定义与基本判别法
+- [[概念/根值判别法]] — Cauchy 根值判别法（Theorem 3.33）
+- [[概念/比值判别法]] — d'Alembert 比值判别法（Theorem 3.34）
+- [[概念/幂级数]] — 幂级数与收敛半径（Theorem 3.39）
+- [[概念/绝对收敛]] — 绝对收敛与条件收敛的区分
+- [[概念/重排]] — Riemann 重排定理（Theorem 3.54）
+- [[概念/分部求和]] — 分部求和公式与 Abel 判别法
+- [[概念/级数的乘积]] — Cauchy 乘积与 Mertens/Abel 定理
+
+**第4章：连续函数**
+- [[概念/函数极限]] — 函数极限的ε-δ定义与序列刻画（Theorem 4.1-4.4）
+- [[概念/连续函数]] — 连续性定义、复合函数连续性、拓扑刻画（Theorem 4.5-4.12）
+- [[概念/一致连续]] — 一致连续性定义、紧集上必一致连续（Theorem 4.18-4.19）
+- [[概念/紧集上的连续函数性质]] — 紧集上连续函数的性质（最值定理，Theorem 4.14-4.17）
+- [[概念/介值定理]] — 连通集上连续函数的介值性质（Theorem 4.22-4.23）
+- [[概念/间断点]] — 间断点分类（第一类、第二类，Definition 4.26）
+- [[概念/单调函数的间断点]] — 单调函数的间断点性质（至多可数，Theorem 4.29-4.31）
+
+---
+
+### 实体（Entities）
+> 数学家、定理、书籍等实体页
+- 待添加...
+
+### 对比（Comparisons）
+> 跨资料的观点对比页
+- 待添加...
+
+---
+*本文件由 WorkBuddy 在每次 ingest 操作后自动更新*
