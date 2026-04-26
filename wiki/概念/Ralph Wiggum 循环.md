@@ -48,3 +48,15 @@ Ingest 流程可以借鉴这个循环：
 
 - [[来源/2026-04-25 Harness design for long-running application development]] — Generator + Evaluator 架构
 - [[来源/2026-04-25 工程技术：在智能体优先的世界中利用 Codex]] — OpenAI Codex 团队实践，详细描述了 Ralph Wiggum 循环
+
+## 相关概念
+
+- [[概念/自我验证循环]] — 同一核心理念的不同表述
+- [[概念/Agent Harness]]
+- [[概念/长运行 Agent]]
+- [[概念/元一思想]] — 顶层设计哲学
+
+## 相关实体
+
+- [[实体/OpenAI]] — Codex 工程团队实践者
+- [[实体/LangChain]] — 类似理念的实践者
