@@ -1,9 +1,8 @@
-# 不递交 WorkBuddy 配置
-.workbuddy/
+# 不递交 WorkBuddy 配置（已注释，允许提交）
+#.workbuddy/
 
-# 不递交原始素材大文件
-raw/*.epub
-raw/Images/
+# 不递交原始素材（整个 raw/ 目录）
+raw/
 
 # Python
 __pycache__/
