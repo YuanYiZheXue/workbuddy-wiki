@@ -2,10 +2,10 @@
 
 一种利用 WorkBuddy 构建个人知识库的模式。
 
-> **版本**：v0.4.0（Git 精确版本通过 `git describe --tags` 获取）
-> **更新**：2026-04-26 02:45
+> **版本**：v0.5.0（Git 精确版本：v2026-04-26-fd2efb6）
+> **更新**：2026-04-26 13:15
 > **状态**：稳定（可跨工作区/跨贡献者部署）
-> **变更**：新增「Schema 版本化管理」章节，定义 Git-Based Distribution 架构
+> **变更**：汲取 Obsidian 技能（Bases/Canvas/Defuddle/obsidian-markdown/obsidian-cli），新增动态视图、可视化、增强写作规范
 
 > **文档来源说明**：
 > - 原始理念：`llm-wiki.md`（英文版，来自 WorkBuddy 社区）
