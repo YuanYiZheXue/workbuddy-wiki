@@ -3,7 +3,7 @@
 ## 项目背景
 
 - **主仓库**：`d:\Obsidian_KN\知识库构建`，Git 远程 `origin`(GitHub) + `gitee`(Gitee) 双远程同步
-- **Wiki Schema**：`workbuddy-wiki-schema.md`，当前版本 v0.6.0
+- **Wiki Schema**：`workbuddy-wiki-schema.md`，当前版本 v0.7.0（2026-04-27 新增「工具能力建设」章节）
 - **子知识库架构**：主仓库 + 多子分支（kb/philosophy、kb/math、kb/computer-ai、kb/finance），各子分支独立 Obsidian vault
 - **WorkBuddy 账号**：元一（数字分身），哲学底层为「元一思想四极飞轮」
 
