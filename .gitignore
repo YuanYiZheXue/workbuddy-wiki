@@ -1,0 +1,55 @@
+# ChromaDB - binary, large, backed up separately
+.workbuddy/chroma_db/
+.workbuddy/chroma_db_**/
+**/chroma_db*/
+
+# Node modules
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.workbuddy/knowledge_agent/__pycache__/
+
+# MemPalace database
+.mempalace/
+
+# Session data
+.workbuddy/projects/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Temp / machine-specific
+*.tmp
+*.log
+nul
+entities.json
+mempalace.yaml
+test_project.html
+
+# MCP config (local only, do NOT push)
+mcp.json
+!mcp.json.example
+
+# Q&A records
+.workbuddy/question_db/
+
+# Obsidian local config (machine-specific)
+.obsidian/
+
+# Raw materials (copyrighted, local only)
+raw/
+
+# pytest cache
+.pytest_cache/
+
+# Workspace state files
+.workbuddy/iteration_state/

@@ -1,0 +1,25 @@
+# Auto detect line endings
+* text=auto
+
+# Python files
+*.py text diff=python
+
+# Markdown files
+*.md text
+
+# JSON files
+*.json text
+
+# Shell scripts (LF only on all platforms)
+*.sh text eol=lf
+
+# Windows batch files (CRLF)
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# YAML
+*.yml text
+*.yaml text
+
+# Text files
+*.txt text

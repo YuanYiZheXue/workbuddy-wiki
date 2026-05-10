@@ -1,0 +1,56 @@
+{
+  // ============================================================
+  // WorkBuddy MCP Server 配置模板
+  // 
+  // 使用方式：将此文件复制为 mcp.json，修改占位符为实际值
+  // ⚠️ mcp.json 已加入 .gitignore，不会推送到网络
+  // ============================================================
+
+  "mcpServers": {
+    "mempalace": {
+      "command": "cmd.exe",
+      "args": [
+        "/c",
+        // TODO: 替换为你的 mempalace-mcp.exe 实际路径
+        "C:\\Users\\YOUR_USERNAME\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\mempalace-mcp.exe"
+      ],
+      "cwd": "C:\\Users\\YOUR_USERNAME",  // TODO: 替换为你的用户目录
+      "env": {
+        "PYTHONUTF8": "1"
+      },
+      "disabled": false
+    },
+    "knowledge_base": {
+      "command": "cmd.exe",
+      "args": [
+        "/c",
+        // TODO: 替换为你的 python.exe 和 rag_mcp_server.py 实际路径
+        "YOUR_PYTHON_PATH python.exe YOUR_PROJECT_ROOT\\.workbuddy\\rag_mcp_server.py"
+      ],
+      "cwd": "YOUR_PROJECT_ROOT",  // TODO: 替换为你的工作目录 (e.g., D:\\Obsidian_KN\\philosophy)
+      "env": {
+        "PYTHONUTF8": "1",
+        "USERNAME": "YOUR_USERNAME",  // TODO: 替换为你的 Windows 用户名
+        
+        // ===== 模型配置 =====
+        // 嵌入模型：bge-m3（多语言，支持中文）
+        // 其他选项：bge-small-zh（轻量，仅中文）
+        "EMBEDDING_MODEL": "bge-m3",
+        
+        // NER 实体识别：true=使用 BERT 模型，false=使用词典
+        "USE_NER": "true",
+        
+        // NER 模式：model=使用 BERT，dict=仅使用词典
+        // dict 模式启动更快，但识别准确率较低
+        "NER_MODEL_MODE": "model",
+        
+        // ===== 网络配置 =====
+        // HF_HUB_OFFLINE=1：离线模式，不下载模型
+        // HF_HUB_OFFLINE=0：在线模式，首次运行会下载模型
+        // ⚠️ 国内环境建议设为 1，使用本地模型
+        "HF_HUB_OFFLINE": "1"
+      },
+      "disabled": false
+    }
+  }
+}
